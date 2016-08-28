@@ -10,7 +10,6 @@ namespace CSharp99Problems //Eliminate consecutive duplicates in a list
         public static void Execute(string[] args)
         {
             Console.WriteLine("Problem 8: Eliminate consecutive duplicates in a list.");
-            Console.WriteLine("//////////////////////////////////////////////////////// ");
             Console.Write("Input a list of integers : ");
             try
             {

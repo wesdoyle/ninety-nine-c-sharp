@@ -10,7 +10,6 @@ namespace CSharp99Problems //Get the second-to-last number in a list
         public static void Execute(string[] args)
         {
             Console.WriteLine("Problem 2: Get the penultimate element in a list.");
-            Console.WriteLine("//////////////////////////////////////////////////////// ");
             Console.Write("Input a list of comma separated integers to form a list: ");
 
             try

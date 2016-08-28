@@ -10,7 +10,6 @@ namespace CSharp99Problems //Reverse a list
         public static void Execute(string[] args)
         {
             Console.WriteLine("Problem 5: Reverse a list.");
-            Console.WriteLine("//////////////////////////////////////////////////////// ");
             Console.Write("Input a list of comma separated integers to form a list: ");
 
             try

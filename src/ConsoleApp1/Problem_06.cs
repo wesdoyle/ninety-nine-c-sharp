@@ -10,7 +10,6 @@ namespace CSharp99Problems //Check whether or not a list is a palindrome
         public static void Execute(string[] args)
         {
             Console.WriteLine("Problem 6: Check whether or not a list is a palindrome.");
-            Console.WriteLine("//////////////////////////////////////////////////////// ");
             Console.Write("Input a list of comma separated integers to form a list: ");
 
             try

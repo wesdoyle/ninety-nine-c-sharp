@@ -10,7 +10,6 @@ namespace CSharp99Problems //Get the number of elements in a list
         public static void Execute(string[] args)
         {
             Console.WriteLine("Problem 4: Get  number of elements in a list.");
-            Console.WriteLine("//////////////////////////////////////////////////////// ");
             Console.Write("Input a list of comma separated integers to form a list: ");
 
             try

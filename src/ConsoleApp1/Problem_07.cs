@@ -10,7 +10,6 @@ namespace CSharp99Problems //Flatten a nested list
         public static void Execute(string[] args)
         {
             Console.WriteLine("Problem 7: Flatten a nested list.");
-            Console.WriteLine("//////////////////////////////////////////////////////// ");
             Console.WriteLine("Input a set of lists of comma separated integers to form a flattened list: ");
             Console.Write("List 1: ");
             try
