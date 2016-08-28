@@ -18,13 +18,6 @@ namespace CSharp99Problems //Get the last number in a list
 
                 List<int> listOfNumbers = input.Split(',').Select(int.Parse).ToList();
 
-                int n = Convert.ToInt32(input);
-
-                for (int i = 1; i <= n; i++)
-                {
-                    listOfNumbers.Add(i);
-                }
-
                 var finalNumber = listOfNumbers.Last();
 
                 Console.WriteLine("The final number is: " + finalNumber.ToString());

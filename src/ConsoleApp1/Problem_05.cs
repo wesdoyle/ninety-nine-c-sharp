@@ -16,14 +16,7 @@ namespace CSharp99Problems //Reverse a list
             {
                 var input = Console.ReadLine();
 
-                int n = Convert.ToInt32(input);
-
-                List<int> listOfNumbers = new List<int>();
-
-                for (int i = 1; i <= n; i++)
-                {
-                    listOfNumbers.Add(i);
-                }
+                List<int> listOfNumbers = input.Split(',').Select(int.Parse).ToList();
 
                 var reverseList = string.Join(",", Enumerable.Reverse(listOfNumbers));
 

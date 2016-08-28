@@ -16,14 +16,7 @@ namespace CSharp99Problems //Get the second-to-last number in a list
             {
                 var input = Console.ReadLine();
 
-                int n = Convert.ToInt32(input);
-
-                List<int> listOfNumbers = new List<int>();
-
-                for (int i = 1; i <= n; i++)
-                {
-                    listOfNumbers.Add(i);
-                }
+                List<int> listOfNumbers = input.Split(',').Select(int.Parse).ToList();
 
                 bool listIsLongEnough = listOfNumbers.Count() > 1; 
 
