@@ -90,6 +90,12 @@ namespace CSharp99Problems
                     Restart();
                 }
 
+                if (n == 12)
+                {
+                    Problem_12.Execute(y);
+                    Restart();
+                }
+
                 else
                 {
                     Console.WriteLine("Problem not found. Try something else.");
